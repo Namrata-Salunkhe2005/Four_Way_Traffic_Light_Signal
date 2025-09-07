@@ -1,0 +1,158 @@
+//road A LED 
+int Red_A = 0;
+int Yellow_A =1;
+int Green_A =2;
+//Road B LED 
+int Red_B = 3;
+int Yellow_B =4;
+int Green_B =5;
+//Road C LED 
+int Red_C = 6;
+int Yellow_C =7;
+int Green_C =8;
+//Road D LED 
+int Red_D = 9;
+int Yellow_D =10;
+int Green_D =11;
+
+void setup()
+ {
+  // put your setup code here, to run once:
+  pinMode(Red_A,OUTPUT);//Set output pin
+  pinMode(Yellow_A,OUTPUT);//Set output pin
+  pinMode(Green_A,OUTPUT);//Set output pin
+  pinMode(Red_B,OUTPUT);//Set output pin
+  pinMode(Yellow_B,OUTPUT);//Set output pin
+  pinMode(Green_B,OUTPUT);//Set output pin
+  pinMode(Red_C,OUTPUT);//Set output pin
+  pinMode(Yellow_C,OUTPUT);//Set output pin
+  pinMode(Green_C,OUTPUT);//Set output pin
+  pinMode(Red_D,OUTPUT);//Set output pin
+  pinMode(Yellow_D,OUTPUT);//Set output pin
+  pinMode(Green_D,OUTPUT);//Set output pin
+}
+
+void loop() 
+{
+  // put your main code here, to run repeatedly:
+
+  digitalWrite(Red_A,LOW);
+  digitalWrite(Yellow_A,LOW);
+  digitalWrite(Green_A,HIGH);
+  digitalWrite(Red_B,HIGH);
+  digitalWrite(Yellow_B,LOW);
+  digitalWrite(Green_B,LOW);
+  digitalWrite(Red_C,HIGH);
+  digitalWrite(Yellow_C,LOW);
+  digitalWrite(Green_C,LOW);
+  digitalWrite(Red_D,HIGH);
+  digitalWrite(Yellow_D,LOW);
+  digitalWrite(Green_D,LOW);
+  for (int i=5; i>0; i--)
+  delay(1000);
+
+  digitalWrite(Red_A,LOW);
+  digitalWrite(Yellow_A,HIGH);
+  digitalWrite(Green_A,LOW);
+  digitalWrite(Red_B,HIGH);
+  digitalWrite(Yellow_B,LOW);
+  digitalWrite(Green_B,LOW);
+  digitalWrite(Red_C,HIGH);
+  digitalWrite(Yellow_C,LOW);
+  digitalWrite(Green_C,LOW);
+  digitalWrite(Red_D,HIGH);
+  digitalWrite(Yellow_D,LOW);
+  digitalWrite(Green_D,LOW);
+  for (int i=3; i>0; i--)
+  delay(1000);
+
+  digitalWrite(Red_A,HIGH);
+  digitalWrite(Yellow_A,LOW);
+  digitalWrite(Green_A,LOW);
+  digitalWrite(Red_B,LOW);
+  digitalWrite(Yellow_B,LOW);
+  digitalWrite(Green_B,HIGH);
+  digitalWrite(Red_C,HIGH);
+  digitalWrite(Yellow_C,LOW);
+  digitalWrite(Green_C,LOW);
+  digitalWrite(Red_D,HIGH);
+  digitalWrite(Yellow_D,LOW);
+  digitalWrite(Green_D,LOW);
+  for (int i=5; i>0; i--)
+  delay(1000);
+
+  digitalWrite(Red_A,HIGH);
+  digitalWrite(Yellow_A,LOW);
+  digitalWrite(Green_A,LOW);
+  digitalWrite(Red_B,LOW);
+  digitalWrite(Yellow_B,HIGH);
+  digitalWrite(Green_B,LOW);
+  digitalWrite(Red_C,HIGH);
+  digitalWrite(Yellow_C,LOW);
+  digitalWrite(Green_C,LOW);
+  digitalWrite(Red_D,HIGH);
+  digitalWrite(Yellow_D,LOW);
+  digitalWrite(Green_D,LOW);
+  for (int i=3; i>0; i--)
+  delay(1000);
+
+  digitalWrite(Red_A,HIGH);
+  digitalWrite(Yellow_A,LOW);
+  digitalWrite(Green_A,LOW);
+  digitalWrite(Red_B,HIGH);
+  digitalWrite(Yellow_B,LOW);
+  digitalWrite(Green_B,LOW);
+  digitalWrite(Red_C,LOW);
+  digitalWrite(Yellow_C,LOW);
+  digitalWrite(Green_C,HIGH);
+  digitalWrite(Red_D,HIGH);
+  digitalWrite(Yellow_D,LOW);
+  digitalWrite(Green_D,LOW);
+  for (int i=5; i>0; i--)
+  delay(1000);
+
+  digitalWrite(Red_A,HIGH);
+  digitalWrite(Yellow_A,LOW);
+  digitalWrite(Green_A,LOW);
+  digitalWrite(Red_B,HIGH);
+  digitalWrite(Yellow_B,LOW);
+  digitalWrite(Green_B,LOW);
+  digitalWrite(Red_C,LOW);
+  digitalWrite(Yellow_C,HIGH);
+  digitalWrite(Green_C,LOW);
+  digitalWrite(Red_D,HIGH);
+  digitalWrite(Yellow_D,LOW);
+  digitalWrite(Green_D,LOW);
+  for (int i=3; i>0; i--)
+  delay(1000);
+
+  digitalWrite(Red_A,HIGH);
+  digitalWrite(Yellow_A,LOW);
+  digitalWrite(Green_A,LOW);
+  digitalWrite(Red_B,HIGH);
+  digitalWrite(Yellow_B,LOW);
+  digitalWrite(Green_B,LOW);
+  digitalWrite(Red_C,HIGH);
+  digitalWrite(Yellow_C,LOW);
+  digitalWrite(Green_C,LOW);
+  digitalWrite(Red_D,LOW);
+  digitalWrite(Yellow_D,LOW);
+  digitalWrite(Green_D,HIGH);
+  for (int i=5; i>0; i--)
+  delay(1000);
+
+  digitalWrite(Red_A,HIGH);
+  digitalWrite(Yellow_A,LOW);
+  digitalWrite(Green_A,LOW);
+  digitalWrite(Red_B,HIGH);
+  digitalWrite(Yellow_B,LOW);
+  digitalWrite(Green_B,LOW);
+  digitalWrite(Red_C,HIGH);
+  digitalWrite(Yellow_C,LOW);
+  digitalWrite(Green_C,LOW);
+  digitalWrite(Red_D,LOW);
+  digitalWrite(Yellow_D,HIGH);
+  digitalWrite(Green_D,LOW);
+  for (int i=3; i>0; i--)
+  delay(1000);
+}
